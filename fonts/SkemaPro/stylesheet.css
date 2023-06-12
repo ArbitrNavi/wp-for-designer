@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-SemiBold.eot');
+    src: local('Skema Pro Display SemiBold'), local('SkemaProDisplay-SemiBold'),
+        url('SkemaProDisplay-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-SemiBold.woff2') format('woff2'),
+        url('SkemaProDisplay-SemiBold.woff') format('woff'),
+        url('SkemaProDisplay-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-BoldItalic.eot');
+    src: local('Skema Pro Display Bold Italic'), local('SkemaProDisplay-BoldItalic'),
+        url('SkemaProDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-BoldItalic.woff2') format('woff2'),
+        url('SkemaProDisplay-BoldItalic.woff') format('woff'),
+        url('SkemaProDisplay-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-Italic.eot');
+    src: local('Skema Pro Display Italic'), local('SkemaProDisplay-Italic'),
+        url('SkemaProDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-Italic.woff2') format('woff2'),
+        url('SkemaProDisplay-Italic.woff') format('woff'),
+        url('SkemaProDisplay-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-XLight.eot');
+    src: local('Skema Pro Display ExtraLight'), local('SkemaProDisplay-XLight'),
+        url('SkemaProDisplay-XLight.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-XLight.woff2') format('woff2'),
+        url('SkemaProDisplay-XLight.woff') format('woff'),
+        url('SkemaProDisplay-XLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-Medium.eot');
+    src: local('Skema Pro Display Medium'), local('SkemaProDisplay-Medium'),
+        url('SkemaProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-Medium.woff2') format('woff2'),
+        url('SkemaProDisplay-Medium.woff') format('woff'),
+        url('SkemaProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-MediumItalic.eot');
+    src: local('Skema Pro Display Medium Italic'), local('SkemaProDisplay-MediumItalic'),
+        url('SkemaProDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-MediumItalic.woff2') format('woff2'),
+        url('SkemaProDisplay-MediumItalic.woff') format('woff'),
+        url('SkemaProDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-SemiBoldItalic.eot');
+    src: local('Skema Pro Display SemiBold Italic'), local('SkemaProDisplay-SemiBoldItalic'),
+        url('SkemaProDisplay-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('SkemaProDisplay-SemiBoldItalic.woff') format('woff'),
+        url('SkemaProDisplay-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-Regular.eot');
+    src: local('Skema Pro Display Regular'), local('SkemaProDisplay-Regular'),
+        url('SkemaProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-Regular.woff2') format('woff2'),
+        url('SkemaProDisplay-Regular.woff') format('woff'),
+        url('SkemaProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-XLightItalic.eot');
+    src: local('Skema Pro Display ExtraLight Italic'), local('SkemaProDisplay-XLightItalic'),
+        url('SkemaProDisplay-XLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-XLightItalic.woff2') format('woff2'),
+        url('SkemaProDisplay-XLightItalic.woff') format('woff'),
+        url('SkemaProDisplay-XLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-Light.eot');
+    src: local('Skema Pro Display Light'), local('SkemaProDisplay-Light'),
+        url('SkemaProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-Light.woff2') format('woff2'),
+        url('SkemaProDisplay-Light.woff') format('woff'),
+        url('SkemaProDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-LightItalic.eot');
+    src: local('Skema Pro Display Light Italic'), local('SkemaProDisplay-LightItalic'),
+        url('SkemaProDisplay-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-LightItalic.woff2') format('woff2'),
+        url('SkemaProDisplay-LightItalic.woff') format('woff'),
+        url('SkemaProDisplay-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-XBold.eot');
+    src: local('Skema Pro Display ExtraBold'), local('SkemaProDisplay-XBold'),
+        url('SkemaProDisplay-XBold.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-XBold.woff2') format('woff2'),
+        url('SkemaProDisplay-XBold.woff') format('woff'),
+        url('SkemaProDisplay-XBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-Bold.eot');
+    src: local('Skema Pro Display Bold'), local('SkemaProDisplay-Bold'),
+        url('SkemaProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-Bold.woff2') format('woff2'),
+        url('SkemaProDisplay-Bold.woff') format('woff'),
+        url('SkemaProDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Skema Pro Display';
+    src: url('SkemaProDisplay-XBoldItalic.eot');
+    src: local('Skema Pro Display ExtraBold Italic'), local('SkemaProDisplay-XBoldItalic'),
+        url('SkemaProDisplay-XBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SkemaProDisplay-XBoldItalic.woff2') format('woff2'),
+        url('SkemaProDisplay-XBoldItalic.woff') format('woff'),
+        url('SkemaProDisplay-XBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
