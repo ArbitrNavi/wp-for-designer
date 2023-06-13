@@ -9,46 +9,145 @@
   margin: 0 auto;
 }
 
-.header {
+.header .navigation {
   background: linear-gradient(180deg, #9d9169 0%, #b3a98b 100%);
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.25);
 }
-.header .header_container {
-  position: relative;
+.header nav {
   height: 100px;
-}
-.header .header_container nav {
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Skema Pro Display";
 }
-.header .header_container nav .logo {
+.header nav .logo {
   width: 211px;
   height: 86px;
 }
-.header .header_container nav .logo img {
+.header nav .logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.header .header_container nav ul {
+.header nav ul {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 40px;
   color: #000;
 }
-.header .header_container nav ul a {
+.header nav ul a {
   color: #2e2e2e;
   text-decoration: none;
   font-size: 20px;
 }
-.header .header_container nav .socials {
+.header nav .socials {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-
-/*# sourceMappingURL=style.css.map */
+.header nav .socials .phone {
+  font-size: 20px;
+  font-family: "Skema Pro Display";
+  border-bottom: 1px solid #2e2e2e;
+}
+.header .header_content {
+  position: relative;
+}
+.header .header_content .header_bg {
+  background: url("./assets/main_bg.jpg");
+  z-index: -1;
+  position: absolute;
+  margin-top: -90px;
+  height: 765px;
+}
+.header .header_content .header_bg img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header .header_content .content {
+  position: relative;
+}
+.header .header_content .content > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+.header .header_content .content > .text h1 {
+  color: #2e2e2e;
+  font-family: "Skema Pro Display";
+  font-size: 40px;
+  width: 541px;
+}
+.header .header_content .content > .text p {
+  font-family: "TT Norms";
+  width: 483px;
+  font-size: 22px;
+}
+.header .header_content .content > .text p span {
+  color: #675927;
+}
+.header .header_content .content > .text button {
+  position: relative;
+  overflow: hidden;
+  width: 298px;
+  height: 86px;
+  font-size: 30px;
+  font-family: "TT Norms";
+  border-radius: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #686868;
+  border: none;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 15px 18px 1px rgba(75, 75, 73, 0.35);
+}
+.header .header_content .content > .text button .linear {
+  position: absolute;
+  opacity: 0.25;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: linear-gradient(76.82deg, #576265 11.6%, #9ea1a1 25.31%, #848b8a 48.06%, #576265 55.72%, #576265 77.23%, #757a7b 85.34%, #576265 91.31%);
+  mix-blend-mode: normal;
+}
+.header .header_content .content .designer {
+  position: absolute;
+  right: 100px;
+  top: 35px;
+  width: 585px;
+  z-index: -1;
+  height: 640px;
+}
+.header .header_content .content .designer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.header .header_content .content .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header_content .content .cards .card {
+  width: 356px;
+  height: 173px;
+  background: rgba(218, 209, 178, 0.9);
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  font-size: 18px;
+  text-align: center;
+  font-family: "TT Norms";
+}/*# sourceMappingURL=style.css.map */
