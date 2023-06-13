@@ -186,3 +186,99 @@ $span-color: #675927;
 		}
 	}
 }
+
+.problems {
+	position: relative;
+	margin-top: 40px;
+	background: url('./assets/main_bg.jpg');
+	background-size: cover;
+	padding: 170px 0;
+	z-index: -2;
+	color: $text-color;
+
+	.problems_container {
+		> p {
+			font-size: 40px;
+			font-family: $title-font;
+			font-weight: 600;
+		}
+
+		.problems_cards {
+			display: flex;
+			gap: 68px;
+			align-items: center;
+
+			.card {
+				width: 212px;
+				height: 288px;
+
+				.avatars {
+					position: relative;
+					margin: 0 auto;
+					width: 164px;
+					height: 164px;
+					margin-bottom: 20px;
+
+					.bg_blur {
+						position: absolute;
+						width: 123px;
+						height: 100px;
+						background: #b4a87e;
+						filter: blur(10px);
+						border-radius: 10px;
+						z-index: -1;
+						bottom: 0;
+						margin-left: auto;
+						margin-right: auto;
+						left: 0;
+						right: 0;
+					}
+
+					&#avatar_2 {
+						padding-top: 25px;
+					}
+
+					&#avatar_3 {
+						padding-top: 10px;
+					}
+
+					&#avatar_4 {
+						padding-top: 15px;
+					}
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: contain;
+					}
+				}
+
+				p {
+					text-align: center;
+					font-size: 22px;
+				}
+			}
+		}
+	}
+}
+
+.whyTrust {
+	padding: 170px 0;
+	background: url('./assets/black_bg.svg');
+	background-size: cover;
+
+	.trust_container {
+		> p {
+			color: white;
+			font-family: $title-font;
+			font-size: 40px;
+			font-weight: 600;
+		}
+
+		.reasons {
+			display: flex;
+			flex-direction: column;
+			gap: 100px;
+		}
+	}
+}
